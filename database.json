@@ -18,7 +18,7 @@
     "dev": {
         "driver": "pg",
         "host": "127.0.0.1",
-        "port": 5433,
+        "port": 5434,
         "database": "storefront-test",
         "user": "test_user",
         "password": "password123"
