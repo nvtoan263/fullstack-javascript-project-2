@@ -9,3 +9,6 @@ set up database:
 - docker-compose -p <<target-env>> up
 - "db-migrate up" to start migration or "db-migrate down" to discard migration
 - #db-migrate --env dev up" to start migration target environment
+
+- install jasmine and supertest for unittest
+  npx jasmine init
