@@ -7,7 +7,7 @@ import orderRoutes from './handlers/order_controller';
 
 const app: express.Application = express();
 let port = 3000;
-const address: string = "127.0.0.1:${port}";
+const address: string = `127.0.0.1:${port}`;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
