@@ -6,4 +6,4 @@ install package to project: yarn add db-migrate db-migrate-pg
 create database json with dev environment for db-migrate
 creare sql file  by commands: db-migrate create order-product-table --sql-file
 set up database:
-- docker-compose up
+- docker-compose -p <<target-env>> up

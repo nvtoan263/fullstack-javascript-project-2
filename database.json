@@ -3,24 +3,24 @@
       "driver": "pg",
       "host": "127.0.0.1",
       "port": 5432,
-      "database": "storefront-prod",
+      "database": "prod_storefront",
       "user": "prod_user",
-      "password": "password123"
+      "password": "prod_password123"
     },
     "test": {
       "driver": "pg",
       "host": "127.0.0.1",
       "port": 5433,
-      "database": "storefront-test",
+      "database": "test_storefront",
       "user": "test_user",
-      "password": "password123"
+      "password": "test_password123"
     },
     "dev": {
         "driver": "pg",
         "host": "127.0.0.1",
         "port": 5434,
-        "database": "storefront-test",
-        "user": "test_user",
-        "password": "password123"
+        "database": "dev_storefront",
+        "user": "dev_user",
+        "password": "dev_password123"
       }
 }
