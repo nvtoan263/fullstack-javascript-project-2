@@ -58,9 +58,12 @@ SALT_ROUNDS="10"
 
 ## Start Application
 Step 1. Run docker at other terminal by command `docker-compose -p progress up`
+
 Step 2. Run application `yarn start` or `npm run start`
+
 Step 3. Test route api from postman
 
 ## run unit test 
 Step 1. Run docker at other terminal by command `docker-compose -p progress-test up`
+
 Step 2. Run test `yarn test` or `npm run test`
