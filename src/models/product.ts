@@ -59,7 +59,7 @@ export class ProductStore {
       connection.release();
       return rows[0];
     } catch (err) {
-      throw new Error(`Could not update product ${name}. ${err}`);
+      throw new Error(`Could not update product ${productData.name}. ${err}`);
     }
   }
 
